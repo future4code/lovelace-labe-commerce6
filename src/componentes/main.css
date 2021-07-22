@@ -1,0 +1,12 @@
+.main-container{
+    display: grid;
+    grid: 1fr 1fr;
+   
+    
+   
+}
+
+.sidebar-filtros{
+    display: flex;
+    flex-direction: column;
+}
