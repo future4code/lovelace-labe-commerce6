@@ -108,7 +108,6 @@ function App() {
     <Filtro />
     <Footer />
     <Produtos />
-
     </div>
   );
 }
