@@ -1,6 +1,7 @@
 import React from 'react'
 import './App.css';
 import {Filtro} from './componentes/Filtros';
+import {Footer} from './componentes/Footer';
 
 const productListObj = [
   {name: 'Camisa1', preco: 10, info:"camisa azul divertida" },
@@ -101,6 +102,7 @@ function App() {
     <div>
     <ProductList />
     <Filtro />
+    <Footer />
     </div>
   );
 }
