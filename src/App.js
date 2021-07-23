@@ -110,7 +110,7 @@ function App() {
     <Produtos />
     </div>
   );
-}
+  }
 
 
 export default App;
