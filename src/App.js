@@ -2,6 +2,9 @@ import React from 'react'
 import './App.css';
 import {Filtro} from './componentes/Filtros';
 import {Footer} from './componentes/Footer';
+import Produtos from "./components/Produtos/Produtos";
+import Header from "./components/Header";
+
 
 const productListObj = [
   {name: 'Camisa1', preco: 10, info:"camisa azul divertida" },
@@ -101,10 +104,14 @@ function App() {
   return (
     <div>
     <ProductList />
+    <Header />
     <Filtro />
     <Footer />
+    <Produtos />
+
     </div>
   );
 }
+
 
 export default App;
