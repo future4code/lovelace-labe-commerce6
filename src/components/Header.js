@@ -15,8 +15,6 @@ function Header() {
         <ContainerHeader>
             <p> LabEcommerce</p>
         </ContainerHeader>
-
-
     );
 }
 
