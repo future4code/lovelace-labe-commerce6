@@ -1,5 +1,6 @@
 import React from 'react'
 import './App.css';
+import {Filtro} from './componentes/Filtros';
 
 const productListObj = [
   {name: 'Camisa1', preco: 10, info:"camisa azul divertida" },
@@ -99,6 +100,7 @@ function App() {
   return (
     <div>
     <ProductList />
+    <Filtro />
     </div>
   );
 }
